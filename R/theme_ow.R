@@ -3,7 +3,7 @@
 #' Function edits the ggplot theme to custom settings for consistent formatting
 #'
 #' @keywords ggplot
-#' 
+#' @export
 #' 
 
 theme_ow <- function() {
