@@ -1,3 +1,11 @@
+#' Use the OW Theme
+#'
+#' Function edits the ggplot theme to custom settings for consistent formatting
+#'
+#' @keywords ggplot
+#' 
+#' 
+
 theme_ow <- function() {
   font <- "Helvetica"
   
