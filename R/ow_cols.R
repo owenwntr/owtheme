@@ -14,6 +14,8 @@ ow_colors <- c(
   `plaid` = "#005B54",
   `reform uk` = "#12B6CF",
   `reform` = "#12B6CF",
+  `ukip` = "#70147A",
+  `alba` = "#005EB8",
   `light blue` = "#CBE2E1",
   `red` = "#C72127",
   `teal` = "#01a08a",
@@ -48,7 +50,8 @@ ow_palettes <- list(
   `labcon`  = ow_cols("lab", "con"),
   `labcon_diverging`  = c(ow_cols("lab"),"white",ow_cols("con")),
   `main` = ow_cols("red","light yellow","teal","pink","dark blue","dark yellow","light blue"),
-  `gradient` = ow_cols("dark blue","light blue","light yellow","dark yellow","red")
+  `blue_yellow_red` = ow_cols("dark blue","light blue","light yellow","dark yellow","red"),
+  `red_yellow_teal` = ow_cols("red","light yellow","teal")
   
 )
 
