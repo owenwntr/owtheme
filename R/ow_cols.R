@@ -33,6 +33,8 @@ ow_colors <- c(
 #' ow_cols()
 #' ow_cols("labour")
 #' ow_cols("conservative", "lab", "greens")
+#' 
+#' @export
 #'
 
 ow_cols <- function(...) {
@@ -61,6 +63,8 @@ ow_palettes <- list(
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments to pass to colorRampPalette()
 #'
+#' @export
+#'
 #'
 
 ow_pal <- function(palette = "main", reverse = FALSE, ...) {
@@ -79,6 +83,8 @@ ow_pal <- function(palette = "main", reverse = FALSE, ...) {
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_color_gradientn(), used respectively when discrete is TRUE or FALSE
 #'
+#'@export
+#'
 scale_color_ow <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
   pal <- ow_pal(palette = palette, reverse = reverse)
   
@@ -96,6 +102,8 @@ scale_color_ow <- function(palette = "main", discrete = TRUE, reverse = FALSE, .
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE
+#'            
+#'@export
 #'
 scale_fill_ow <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
   pal <- ow_pal(palette = palette, reverse = reverse)

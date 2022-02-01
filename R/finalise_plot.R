@@ -22,15 +22,14 @@ create_footer <- function (source_name) {
   return(footer)
 }
 
-#' Arrange alignment and save BBC ggplot chart
+#' Arrange alignment and save ggplot chart
 #'
-#' Running this function will save your plot with the correct guidelines for publication for a BBC News graphic.
-#' It will left align your title, subtitle and source, add the BBC blocks at the bottom right and save it to your specified location.
+#' 
 #' @param plot_name The variable name of the plot you have created that you want to format and save
-#' @param source_name The text you want to come after the text 'Source:' in the bottom left hand side of your side
+#' @param source_name Text for left hand side of the plot footnote
 #' @param save_filepath Exact filepath that you want the plot to be saved to
-#' @param width_pixels Width in pixels that you want to save your chart to - defaults to 640
-#' @param height_pixels Height in pixels that you want to save your chart to - defaults to 450
+#' @param width_pixels Width in pixels that you want to save your chart to - defaults to 720
+#' @param height_pixels Height in pixels that you want to save your chart to - defaults to 405
 #' @return (Invisibly) an updated ggplot object.
 
 #' @keywords finalise_plot
@@ -38,8 +37,8 @@ create_footer <- function (source_name) {
 #' finalise_plot(plot_name = myplot,
 #' source = "The source for my data",
 #' save_filepath = "filename_that_my_plot_should_be_saved_to-nc.png",
-#' width_pixels = 640,
-#' height_pixels = 450,
+#' width_pixels = 720,
+#' height_pixels = 405,
 #' logo_image_path = "logo_image_filepath.png"
 #' )
 #'
