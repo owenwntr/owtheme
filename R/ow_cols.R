@@ -1,3 +1,5 @@
+#' @export
+
 ow_colors <- c(
   `conservative`        = "#0087DC",
   `con`        = "#0087DC",
@@ -45,6 +47,8 @@ ow_cols <- function(...) {
   
   unname(ow_colors[cols])
 }
+
+#' @export
 
 ow_palettes <- list(
   
