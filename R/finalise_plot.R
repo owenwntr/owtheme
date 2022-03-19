@@ -18,7 +18,7 @@ create_footer <- function (source_name) {
   footer <- grid::grobTree(grid::linesGrob(x = grid::unit(c(0, 1), "npc"), y = grid::unit(1.1, "npc")),
                            grid::textGrob(source_name,
                                           x = 0.004, hjust = 0, gp = grid::gpar(fontsize=12)),
-                           grid::textGrob("@OwenWntr owenwntr.wordpress.com", x = 0.685,hjust = 0, gp = grid::gpar(fontsize=12)))
+                           grid::textGrob("@OwenWntr owenwinter.co.uk", x = 0.685,hjust = 0, gp = grid::gpar(fontsize=12)))
   return(footer)
 }
 
